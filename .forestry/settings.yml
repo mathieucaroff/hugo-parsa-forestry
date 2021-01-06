@@ -28,6 +28,11 @@ sections:
 - type: document
   path: config.yaml
   label: Configuration
+- type: document
+  path: archetypes/default.md
+  label: ArchetypeDocument
+  match: "**/*"
+  read_only: false
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
